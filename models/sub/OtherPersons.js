@@ -8,6 +8,7 @@ const OtherPersonsSM = new Schema({
     },
     gender: {type: String, required: true},
     relationship: {type: String},
+    dob: Date,
     postal: String,
     mobile: String,
     type: String
